@@ -22,7 +22,7 @@ const Home = () => {
 
     console.log("1111111111log:");
 
-    return () => sub();
+    sub();
   }, []);
 
   async function handleDelete(id) {
